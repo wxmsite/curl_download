@@ -1,5 +1,5 @@
 #!/bin/bash
-function httpRequest()
+function curl_download()
 {
     #从1爬取到1000，成功则下载，失败输出进度
 for variable in {1..1000}
@@ -18,5 +18,5 @@ do
 done
 }
 
-httpRequest
+curl_download
 
